@@ -7,7 +7,7 @@
       },
       {
         "source": "/(.*)",
-        "destination": "https://poltergeist.ooo",
+        "destination": "/",
         "permanent": true
       }
     ]
