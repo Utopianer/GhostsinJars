@@ -1,5 +1,5 @@
 {
-    "redirects": [
+    "rewrites": [
       {
         "source": "/docs(.*)",
         "destination": "https://docs.poltergeist.ooo$1",
