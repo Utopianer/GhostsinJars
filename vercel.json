@@ -1,15 +1,15 @@
 {
-    "rewrites": [
-      {
-        "source": "/docs(.*)",
-        "destination": "https://docs.poltergeist.ooo$1",
-        "permanent": true
-      },
-      {
-        "source": "/(.*)",
-        "destination": "/",
-        "permanent": true
-      }
-    ]
-  }
-    
+  "redirects": [
+    {
+      "source": "/docs(.*)",
+      "destination": "https://docs.poltergeist.ooo$1",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
