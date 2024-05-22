@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Ghosts in Jars | Ordinal Collection</title>
+	<meta name="description" content="Cute little Ghosts on #Bitcoin" />
+	<meta name="keywords" content="Ghosts in Jars, Bitcoin, Ordinals, Inscriptions, Crypto, NFT, Art" />
+	<meta name="image" content="/assets/img/dym-logo.svg" />
+	<meta name="author" content="Ghosts in Jars" />
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/assets/favicon/site.webmanifest">
+	<link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://poltergeist.ooo" />
+	<meta property="og:title" content="Ghosts in Jars" />
+	<meta property="og:description" content="Cute little Ghosts on #Bitcoin" />
+	<meta property="og:image" content="/assets/img/gij-og-image.jpg" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:url" content="https://poltergeist.ooo" />
+	<meta name="twitter:title" content="Ghosts in Jars" />
+	<meta name="twitter:site" content="@GhostsinJars" />
+	<meta name="twitter:creator" content="@GhostsinJars" />
+	<meta name="twitter:description" content="Cute little Ghosts on #Bitcoin" />
+	<meta name="twitter:image" content="/assets/img/gij-twitter-card.jpg" />
+
+    <link rel="stylesheet" href="css/select2.min.css">
+	<link rel="stylesheet" href="css/style.css?v=1.0.2">
+</head>
+<body>
+	<div class="container">
+        <div class="image-builder__container">
+            <div class="image-builder__inner">
+                <div id="image-builder">
+                    <div class="trait-cont background">
+                        <img src="" alt="Background" />
+                    </div>
+                    <div class="trait-cont base">
+                        <img src="" alt="Base" />
+                    </div>
+                    <div class="trait-cont clothes">
+                        <img src="" alt="Clothes" />
+                    </div>
+                    <div class="trait-cont face">
+                        <img src="" alt="Face" />
+                    </div>
+                    <div class="trait-cont hat">
+                        <img src="" alt="Hat" />
+                    </div>
+                </div>
+                <div class="image-builder__footer">
+                    <button id="randomize" class="btn">Randomize</button>
+                    <button id="download-image" class="btn">Save Image</button>
+                </div>
+            </div>
+            <form id="trait-picker">
+                <label for="backround">
+                    <select name="background">
+                        <option value="" disabled selected></option>
+                        <option value="1">Orange</option>
+                        <option value="2">Pink</option>
+                        <option value="3">Green</option>
+                        <option value="4">Purple</option>
+                        <option value="5">Yellow</option>
+                        <option value="6">Light Blue</option>
+                        <option value="7">Light Purple</option>
+                        <option value="8">Red</option>
+                        <option value="9">Blue</option>
+                    </select>
+                </label>
+                <label for="base">
+                    <select name="base">
+                        <option value="" disabled selected></option>
+                        <option value="1">Base 1</option>
+                        <option value="2">Base 2</option>
+                        <option value="3">Base 3</option>
+                        <option value="4">Base 4</option>
+                        <option value="5">Base 5</option>
+                        <option value="6">Base 6</option>
+                        <option value="7">Base 7</option>
+                        <option value="8">Base 8</option>
+                        <option value="9">Base 9</option>
+                        <option value="10">Base 10</option>
+                        <option value="11">Base 11</option>
+                    </select>
+                </label>
+                <label for="clothes">
+                    <select name="clothes">
+                        <option value="" disabled selected></option>
+                        <option value="1">Clothes 1</option>
+                        <option value="2">Clothes 2</option>
+                        <option value="3">Clothes 3</option>
+                        <option value="4">Clothes 4</option>
+                        <option value="5">Clothes 5</option>
+                    </select>
+                </label>
+                <label for="face">
+                    <select name="face">
+                        <option value="" disabled selected></option>
+                        <option value="1">Angry</option>
+                        <option value="2">Sinister</option>
+                        <option value="3">Shocked</option>
+                        <option value="4">Unamused</option>
+                        <option value="5">Happy</option>
+                        <option value="6">Tired</option>
+                        <option value="7">Dead</option>
+                        <option value="8">Content</option>
+                        <option value="9">Red Glasses</option>
+                        <option value="10">Deal With It</option>
+                        <option value="11">Hypnotized</option>
+                    </select>
+                </label>
+                <label for="hat">
+                    <select name="hat">
+                        <option value="" disabled selected></option>
+                        <option value="1">Police</option>
+                        <option value="2">Pirate</option>
+                        <option value="3">Christmas</option>
+                        <option value="4">Straw Hat</option>
+                        <option value="5">Wizard</option>
+                        <option value="6">Cowboy</option>
+                        <option value="7">Angel</option>
+                        <option value="8">Headband</option>
+                        <option value="9">Horns</option>
+                        <option value="9">Unicorn</option>
+                        <option value="9">Axe</option>
+                        <option value="9">Arrow</option>
+                        <option value="9">Crown</option>
+                    </select>
+                </label>
+            </form>
+            <div id="image-final"></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="scripts/select2.min.js"></script>
+    <script src="scripts/html2canvas.min.js"></script>
+	<script src="scripts/script.js?version=0.02"></script>
+</body>
+</html>
