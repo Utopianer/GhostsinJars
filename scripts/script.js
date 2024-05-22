@@ -74,7 +74,7 @@ $(function() {
         html2canvas(element, {
             canvas:canvas
         }).then(canvas => {
-            saveAs(canvas.toDataURL('image/webp-lossless', 1), new Date().getUTCMilliseconds() + '.webp');
+            saveAs(canvas.toDataURL('image/png', 1), new Date().getUTCMilliseconds() + '.png');
         });
     }
 
