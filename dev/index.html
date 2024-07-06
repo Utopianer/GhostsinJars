@@ -45,6 +45,9 @@
                     <div class="trait-cont base">
                         <img src="" alt="Base" />
                     </div>
+                    <div class="trait-cont back">
+                        <img src="" alt="Back" />
+                    </div>
                     <div class="trait-cont clothes">
                         <img src="" alt="Clothes" />
                     </div>
@@ -53,9 +56,6 @@
                     </div>
                     <div class="trait-cont hat">
                         <img src="" alt="Hat" />
-                    </div>
-                    <div class="trait-cont back">
-                        <img src="" alt="Back" />
                     </div>
                     <div class="trait-cont accessories">
                         <img src="" alt="Accessories" />
@@ -69,7 +69,7 @@
             <form id="trait-picker">
                 <label for="backround">
                     <select name="background">
-                        <option value="" disabled selected></option>
+                        <option value="0">None</option>
                         <option value="1">Orange</option>
                         <option value="2">Pink</option>
                         <option value="3">Green</option>
@@ -95,6 +95,14 @@
                         <option value="9">Base 9</option>
                         <option value="10">Base 10</option>
                         <option value="11">Base 11</option>
+                    </select>
+                </label>
+                <label for="back">
+                    <select name="back">
+                        <option value="" disabled selected></option>
+                        <option value="1">Back1</option>
+                        <option value="2">Back2</option>
+                        <option value="3">Back3</option>
                     </select>
                 </label>
                 <label for="clothes">
@@ -139,14 +147,6 @@
                         <option value="11">Axe</option>
                         <option value="12">Arrow</option>
                         <option value="13">Crown</option>
-                    </select>
-                </label>
-                <label for="back">
-                    <select name="back">
-                        <option value="" disabled selected></option>
-                        <option value="1">Back1</option>
-                        <option value="2">Back2</option>
-                        <option value="3">Back3</option>
                     </select>
                 </label>
                 <label for="accessories">
